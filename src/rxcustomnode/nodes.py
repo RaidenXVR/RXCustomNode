@@ -99,7 +99,7 @@ class RXCustomInput:
         height,
     ):
         print("RXCustomInput IS_CHANGED called")
-        return f"{model_name}-{prompt}-{negative_prompt}-{sampler}-{scheduler}-{steps}-{cfg}-{seed}-{width}-{height}-{futa_on}"
+        return f"{model_name}-{prompt}-{negative_prompt}-{sampler}-{scheduler}-{steps}-{cfg}-{seed}-{width}-{height}"
 
     RETURN_TYPES = (
         folder_paths.get_filename_list("checkpoints"),
